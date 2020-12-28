@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_CLAS" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <VSEOCLASS>
+    <CLSNAME>ZCL_DMS</CLSNAME>
+    <LANGU>P</LANGU>
+    <DESCRIPT>Arquivo DMS</DESCRIPT>
+    <STATE>1</STATE>
+    <CLSCCINCL>X</CLSCCINCL>
+    <FIXPT>X</FIXPT>
+    <UNICODE>X</UNICODE>
+   </VSEOCLASS>
+   <DESCRIPTIONS>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GC_CLASS_MESSAGE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Área funcional</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GET_BY_CONFIRMATION_DATE</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem documento com base na data de confirmação da ordem</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GET_BY_STATUS</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Retorna documentos por status</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GET_CURRENT</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem documento atual</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GET_DESCRIPTION</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem descrição DMS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GET_FILES</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Obtem dados do arquivo DMS</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GT_DRAD</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Categoria de tabela para DRAD</DESCRIPT>
+    </SEOCOMPOTX>
+    <SEOCOMPOTX>
+     <CLSNAME>ZCL_DMS</CLSNAME>
+     <CMPNAME>GT_DRAW</CMPNAME>
+     <LANGU>P</LANGU>
+     <DESCRIPT>Categoria de tabela para DRAW</DESCRIPT>
+    </SEOCOMPOTX>
+   </DESCRIPTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
