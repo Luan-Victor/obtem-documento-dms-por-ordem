@@ -11,6 +11,7 @@ public section.
     importing
       !I_AUFNR type CAUFV-AUFNR
       !I_STLTY type STKO-STLTY
+      !I_DOKAR type DMS_TBL_RANGESDOKAR
     exceptions
       ORDER_NOT_FOUND
       TECHNICAL_LIST_NOT_FOUND
@@ -78,12 +79,6 @@ METHOD constructor.
 
   FIELD-SYMBOLS: <dokar> LIKE LINE OF gr_dokar.
 
-* Ranges
-  APPEND INITIAL LINE TO gr_dokar ASSIGNING <dokar>.
-  <dokar>-sign   = 'I'.
-  <dokar>-option = 'EQ'.
-  <dokar>-low    = 'ZIF'.
-
 * Obtém lista técnica (bill of material) e alternativa (alternative)
   SELECT SINGLE aufnr stlnr stlal ftrmi
     FROM caufv
@@ -116,7 +111,7 @@ METHOD constructor.
   SELECT *
     FROM drad
     INTO TABLE gt_drad
-    WHERE dokar IN gr_dokar
+    WHERE dokar IN i_dokar
       AND dokob = 'STKO_DOC'
       AND objky = gs_stko-guidx.
 
